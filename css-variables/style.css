@@ -1,0 +1,25 @@
+:root {
+    --primary-color: rgb(211, 177, 177);
+    --secondery-color: green;
+    --third-color: blue;
+    --primary-width: 20%; 
+}
+
+.first-div {
+    width: 80%;
+    margin: 10px auto;
+    background-color: rgb(226, 43, 205);
+    color: var(--primary-color);
+}
+.second-div {
+    width: var(--primary-width);
+    margin: 10px auto;
+    background-color: aquamarine;
+    color: var(--third-color);
+}
+.third-div {
+    width: 90%;
+    margin: 10px auto;
+    background-color: gold;
+    color: var(--secondery-color);
+}
